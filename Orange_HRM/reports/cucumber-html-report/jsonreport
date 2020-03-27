@@ -1,0 +1,482 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To check that the application is taking the valid credentials.",
+        "description": "",
+        "id": "orangehrm-website;to-check-that-the-application-is-taking-the-valid-credentials.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17265338413,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user launch the chrome browser",
+            "match": {
+              "location": "OrangeHRM_Login_step.user_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4154266770,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user open the orange hrm login page",
+            "match": {
+              "location": "OrangeHRM_Login_step.user_open_the_orange_hrm_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13553533829,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the username and password with valid data",
+            "match": {
+              "location": "OrangeHRM_Login_step.user_enter_the_username_and_password_with_valid_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5936347486,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user submit the details",
+            "match": {
+              "location": "OrangeHRM_Login_step.user_submit_the_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Tc_01_OrangeHRMLogin"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "To Check if the application is searching candidate details in the Recruitment page.",
+        "description": "",
+        "id": "orangehrm-website;to-check-if-the-application-is-searching-candidate-details-in-the-recruitment-page.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6469124233,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user Launch the chrome browser",
+            "match": {
+              "location": "OrangeHRM_Recruitment_step.user_Launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3951540422,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user Open the orange hrm login page",
+            "match": {
+              "location": "OrangeHRM_Recruitment_step.user_Open_the_orange_hrm_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 507146926,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user Enter the username and password with valid data",
+            "match": {
+              "location": "OrangeHRM_Recruitment_step.user_Enter_the_username_and_password_with_valid_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1843960249,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Submit the details",
+            "match": {
+              "location": "OrangeHRM_Recruitment_step.user_Submit_the_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8954157996,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user searching the candidate details",
+            "match": {
+              "location": "OrangeHRM_Recruitment_step.user_searching_the_candidate_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Tc_02_searching_candidate_details"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "To check if the application is reset the candidate details in the Recruitment page.",
+        "description": "Reset Candidate details in the Recruitment page",
+        "id": "orangehrm-website;to-check-if-the-application-is-reset-the-candidate-details-in-the-recruitment-page.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6458965452,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user Launch the chrome browser",
+            "match": {
+              "location": "recruit_reset_step.the_user_Launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2996344031,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user Open the orange hrm login page",
+            "match": {
+              "location": "recruit_reset_step.the_user_Open_the_orange_hrm_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 294556349,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user Enter the username and password with valid data",
+            "match": {
+              "location": "recruit_reset_step.the_user_Enter_the_username_and_password_with_valid_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2075788356,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user Submit the details",
+            "match": {
+              "location": "recruit_reset_step.the_user_Submit_the_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7174812061,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user reset the candidate details",
+            "match": {
+              "location": "recruit_reset_step.the_user_reset_the_candidate_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@Tc_03_reset_candidate_details"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "To check that the application add another Candidate details in the Recruitment page.",
+        "description": "",
+        "id": "orangehrm-website;to-check-that-the-application-add-another-candidate-details-in-the-recruitment-page.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6464909999,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Launch the chrome browser",
+            "match": {
+              "location": "recruit_add_step.user_Launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2761112356,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User Open the orange hrm login page",
+            "match": {
+              "location": "recruit_add_step.user_Open_the_orange_hrm_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264990912,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User Enter the username and password with valid data",
+            "match": {
+              "location": "recruit_add_step.user_Enter_the_username_and_password_with_valid_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2383185319,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user should Submit the details",
+            "match": {
+              "location": "recruit_add_step.user_should_Submit_the_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6466040409,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user Searching the candidate details",
+            "match": {
+              "location": "recruit_add_step.user_Searching_the_candidate_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3743700753,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "add another candidate details",
+            "match": {
+              "location": "recruit_add_step.add_another_candidate_details()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@Tc_04_add_another_candidate_details"
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "To check that the application  Searching Vacancies in the Recruitment page.",
+        "description": "",
+        "id": "orangehrm-website;to-check-that-the-application--searching-vacancies-in-the-recruitment-page.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8105577409,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User launch the chrome browser",
+            "match": {
+              "location": "recruit_vacancies_step.user_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3416872460,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User open the orange hrm login page",
+            "match": {
+              "location": "recruit_vacancies_step.user_open_the_orange_hrm_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 395483603,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User enter the username and password with valid data",
+            "match": {
+              "location": "recruit_vacancies_step.user_enter_the_username_and_password_with_valid_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2072485545,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User submit the details",
+            "match": {
+              "location": "recruit_vacancies_step.user_submit_the_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6275551171,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User searching the vacancies",
+            "match": {
+              "location": "recruit_vacancies_step.user_searching_the_vacancies()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@Tc_05_search_vacancies"
+          }
+        ]
+      },
+      {
+        "line": 51,
+        "name": "To check that the application add candidate details in vacancies in the recruitment page.",
+        "description": "",
+        "id": "orangehrm-website;to-check-that-the-application-add-candidate-details-in-vacancies-in-the-recruitment-page.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60764823329,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn\u0027t exist\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UK98VR9\u0027, ip: \u0027192.168.0.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.2\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x01520C83+1707139]\n\tOrdinal0 [0x014868F1+1075441]\n\tOrdinal0 [0x013FDFC9+516041]\n\tOrdinal0 [0x0138FB81+64385]\n\tOrdinal0 [0x0138CC5B+52315]\n\tOrdinal0 [0x013ABFD7+180183]\n\tOrdinal0 [0x013ABDDD+179677]\n\tOrdinal0 [0x013A9D4B+171339]\n\tOrdinal0 [0x01391D4A+73034]\n\tOrdinal0 [0x01392DC0+77248]\n\tOrdinal0 [0x01392D59+77145]\n\tOrdinal0 [0x0149BB67+1162087]\n\tGetHandleVerifier [0x015BA966+508998]\n\tGetHandleVerifier [0x015BA6A4+508292]\n\tGetHandleVerifier [0x015CF7B7+594583]\n\tGetHandleVerifier [0x015BB1D6+511158]\n\tOrdinal0 [0x0149402C+1130540]\n\tOrdinal0 [0x0149D4CB+1168587]\n\tOrdinal0 [0x0149D633+1168947]\n\tOrdinal0 [0x014B5B35+1268533]\n\tBaseThreadInitThunk [0x74978744+36]\n\tRtlGetAppContainerNamedObjectPath [0x77ED58ED+253]\n\tRtlGetAppContainerNamedObjectPath [0x77ED58BD+205]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat Com.pages.recruit_vacancies_add_pages.ChromeLaunch(recruit_vacancies_add_pages.java:70)\r\n\tat Com.Stepdefinition.recruit_vacancies_add_step.user_Launch_the_Chrome_browser(recruit_vacancies_add_step.java:14)\r\n\tat ✽.Given User Launch the Chrome browser(src/main/resources/feature/testcase.feature:53)\r\n",
+              "status": "failed"
+            },
+            "line": 53,
+            "name": "User Launch the Chrome browser",
+            "match": {
+              "location": "recruit_vacancies_add_step.user_Launch_the_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "User Open the Orange hrm login page",
+            "match": {
+              "location": "recruit_vacancies_add_step.user_Open_the_Orange_hrm_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "User Enter the Username and password with valid data",
+            "match": {
+              "location": "recruit_vacancies_add_step.user_Enter_the_Username_and_password_with_valid_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "user Should Submit the details",
+            "match": {
+              "location": "recruit_vacancies_add_step.user_Should_Submit_the_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "user Searching the Candidate details",
+            "match": {
+              "location": "recruit_vacancies_add_step.user_Searching_the_Candidate_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "add candidate details",
+            "match": {
+              "location": "recruit_vacancies_add_step.add_candidate_details()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 50,
+            "name": "@Tc_06_add_vacancies_candidate_details"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM Website",
+    "description": "",
+    "id": "orangehrm-website",
+    "keyword": "Feature",
+    "uri": "src/main/resources/feature/testcase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@OrangeHRM_Feature"
+      }
+    ]
+  }
+]
